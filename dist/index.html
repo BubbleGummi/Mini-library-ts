@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="./js/index.js" type="module"></script>
+    <title>Mini library</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <article class="search">
+        <input type="text" id="searchBook" placeholder="Search for a book title..." />
+        <button class="search__submit">Search</button>
+      </article>
+
+      <section class="books">
+        <h1 class="books__title">8 Classic Childrens books</h1>
+
+        <article class="books__book">
+          <header class="books__info">
+            <h2 class="books__name"></h2>
+            <h3 class="books__author"></h3>
+          </header>
+          <div class="line"></div>
+        </article>
+
+        <article class="books__book">
+          <header class="books__info">
+            <h2 class="books__name"></h2>
+            <h3 class="books__author"></h3>
+          </header>
+          <div class="line"></div>
+        </article>
+
+        <article class="books__book">
+          <header class="books__info">
+            <h2 class="books__name"></h2>
+            <h3 class="books__author"></h3>
+          </header>
+          <div class="line"></div>
+        </article>
+
+        <article class="books__book">
+          <header class="books__info">
+            <h2 class="books__name"></h2>
+            <h3 class="books__author"></h3>
+          </header>
+          <div class="line"></div>
+        </article>
+
+        <article class="books__book">
+          <header class="books__info">
+            <h2 class="books__name"></h2>
+            <h3 class="books__author"></h3>
+          </header>
+          <div class="line"></div>
+        </article>
+
+        <article class="books__book">
+          <header class="books__info">
+            <h2 class="books__name"></h2>
+            <h3 class="books__author"></h3>
+          </header>
+          <div class="line"></div>
+        </article>
+
+        <article class="books__book">
+          <header class="books__info">
+            <h2 class="books__name"></h2>
+            <h3 class="books__author"></h3>
+          </header>
+          <div class="line"></div>
+        </article>
+
+        <article class="books__book">
+          <header class="books__info">
+            <h2 class="books__name"></h2>
+            <h3 class="books__author"></h3>
+          </header>
+        </article>
+      </section>
+
+      <article class="single-book hide">
+        <img class="arrow" src="../dist/assets/images/arrow.svg" alt="arrow" />
+        <article class="single-book__book">
+          <article class="single-book__cover">
+            <header class="single-book__name"></header>
+            <header class="single-book__author"></header>
+          </article>
+          <div class="line line--secondary"></div>
+        </article>
+
+        <article class="single-book__info">
+          <header>
+            <h1 class="single-book__name single-book__name--secondary"></h1>
+            <h2 class="single-book__author single-book__author--secondary"></h2>
+          </header>
+          <p class="single-book__desc"></p>
+
+          <section class="single-book__points">
+            <section class="single-book__point">
+              <p class="single-book__point-text">
+                <span class="single-book__span">Audience:</span>
+                <span class="single-book__span-value"></span>
+              </p>
+              <p class="single-book__point-text">
+                <span class="single-book__span">First published:</span>
+                <span class="single-book__span-value"></span>
+              </p>
+              <p class="single-book__point-text">
+                <span class="single-book__span">Pages:</span>
+                <span class="single-book__span-value"></span>
+              </p>
+              <p class="single-book__point-text">
+                <span class="single-book__span">Publisher:</span>
+                <span class="single-book__span-value"></span>
+              </p>
+            </section>
+          </section>
+          <button class="single-book__btn">Let's read!</button>
+        </article>
+      </article>
+    </div>
+  </body>
+</html>
