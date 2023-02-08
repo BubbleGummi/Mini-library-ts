@@ -1,5 +1,5 @@
-import { displayBook } from './displayBook.js';
-import { Book } from './interfaces';
+import { displayBook } from './show.js';
+import { Book } from './faces';
 
 function search(allBooks: Book[]) {
   const queryInput = document.querySelector<HTMLInputElement>('#searchBook');

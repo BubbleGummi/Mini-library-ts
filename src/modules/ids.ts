@@ -1,5 +1,5 @@
-import { displayBook } from './displayBook.js';
-import { Book } from './interfaces';
+import { displayBook } from './show.js';
+import { Book } from './faces';
 
 function populateBooks(allBooksInfo: Book[]) {
   const allBooks = document.querySelectorAll('.books__book') as NodeListOf<HTMLElement>;

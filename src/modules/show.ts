@@ -1,4 +1,4 @@
-import { Book } from './interfaces';
+import { Book } from './faces';
 
 function displayBook(e: any, book: Book) {
   populateBook(book);

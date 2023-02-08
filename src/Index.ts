@@ -1,5 +1,5 @@
 import { getBooks } from './modules/api.js';
-import { Book } from './modules/interfaces.js';
+import { Book } from './modules/faces.js';
 import { populateBooks } from './modules/ids.js';
 import { search } from './modules/search.js';
 
